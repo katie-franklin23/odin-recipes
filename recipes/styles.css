@@ -20,10 +20,15 @@ h2 {
   font-size: 24px;
 }
 
-h3,
+h3 {
+  text-align: center;
+  color: #2ecc71; /* Set the color to green using the hexadecimal color code */
+  font-size: 24px;
+}
+
 h4 {
   text-align: center;
-  color: #000000;
+  color: #000000; /* Keep the color for h4 as it is (black) */
   font-size: 24px;
 }
 .recipe-title {
