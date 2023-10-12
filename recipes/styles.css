@@ -20,6 +20,19 @@ h2 {
   font-size: 24px;
 }
 
+h3,
+h4 {
+  text-align: center;
+  color: #000000;
+  font-size: 24px;
+}
+.recipe-title {
+  text-align: center;
+  color: #2980b9;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 /* Style the image */
 img {
   display: block;
@@ -39,6 +52,12 @@ li {
   margin: 10px 0;
 }
 
+ol {
+  text-align: center; /* Center the entire ordered list */
+  list-style-position: inside; /* Position the numbers inside the list item */
+  padding: 0; /* Remove any default padding */
+}
+
 a {
   text-decoration: none;
   color: #2ecc71;
@@ -48,4 +67,9 @@ a {
 
 a:hover {
   color: #27ae60;
+}
+
+p {
+  text-align: center; /* Center-align the text within the paragraphs */
+  color: #000; /* Set the text color to black */
 }
